@@ -2,14 +2,13 @@
 
 <p align="center">
   <strong>Every <code>udm</code> mode Google ships, in one place.</strong><br>
-  <a href="https://bkyaro.github.io/BetterGoogleSearch/">bkyaro.github.io/BetterGoogleSearch</a>
+  <a href="https://bkyaro.github.io/BetterGoogleSearch/">Preview</a>
 </p>
 
 An interactive launcher and reference for `udm` - the undocumented Google
 Search URL parameter that decides *which* result page you get back. Type a
 query, pick a region, then launch any of the 24 documented modes in a new tab.
 
-- **Live:** https://bkyaro.github.io/BetterGoogleSearch/
 - **Static:** no backend, no API keys, no tracking, no scraping.
 - **Bilingual:** English and 中文, switchable at runtime.
 - **Honest about its sources:** the mode list is a dated snapshot, and the
