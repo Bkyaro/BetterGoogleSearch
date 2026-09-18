@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang='en' data-theme='dark'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <meta name='color-scheme' content='dark light' />
+    <title>Better Google Search</title>
+    <meta
+      name='description'
+      content='Every udm mode Google ships, in one place. Build shareable search links for all 24 documented udm values, localised to any region.'
+    />
+    <meta name='theme-color' content='#070a0f' />
+    <meta property='og:title' content='Better Google Search' />
+    <meta
+      property='og:description'
+      content='The undocumented udm parameter, mapped: 24 modes, tiered regional availability, zero backend.'
+    />
+    <meta property='og:type' content='website' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <script>
+      try {
+        var stored = localStorage.getItem('better-google-search:theme');
+        var theme = stored === 'light' || stored === 'dark'
+          ? stored
+          : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme;
+      } catch (error) { /* theme is cosmetic */ }
+    </script>
+    <style>
+      html { background: #070a0f; }
+      html[data-theme='light'] { background: #f6f8fb; }
+    </style>
+  </head>
+  <body>
+    <div id='root'></div>
+    <script type='module' src='/src/main.tsx'></script>
+  </body>
+</html>
