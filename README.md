@@ -1,12 +1,9 @@
 <h1 align="center">BetterGoogleSearch</h1>
 
 <p align="center">
-  <a href="https://bkyaro.github.io/BetterGoogleSearch/">
-    <img src="docs/banner.jpg" alt="BetterGoogleSearch - every udm mode Google ships, in one place" width="100%">
-  </a>
+  <strong>Every <code>udm</code> mode Google ships, in one place.</strong><br>
+  <a href="https://bkyaro.github.io/BetterGoogleSearch/">bkyaro.github.io/BetterGoogleSearch</a>
 </p>
-
-**Every `udm` mode Google ships, in one place.**
 
 An interactive launcher and reference for `udm` - the undocumented Google
 Search URL parameter that decides *which* result page you get back. Type a
