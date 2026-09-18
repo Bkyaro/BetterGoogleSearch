@@ -15,7 +15,7 @@ function eq(label, got, want) {
 
 const base = 'https://www.google.com/search?q=coffee&udm=14&gl=jp&hl=ja'
 
-eq('the atlas holds 24 modes', UDM_MODES.length, 24)
+eq('the table holds 24 modes', UDM_MODES.length, 24)
 eq('mode ids are unique', new Set(UDM_MODES.map((m) => m.id)).size, 24)
 eq('mode slugs are unique', new Set(UDM_MODES.map((m) => m.slug)).size, 24)
 eq('12 worldwide modes', UDM_MODES.filter((m) => m.tier === 1).length, 12)

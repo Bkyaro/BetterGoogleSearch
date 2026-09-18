@@ -86,7 +86,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* the atlas grid: gradients only, so nothing extra has to be downloaded */
+/* the background grid: gradients only, so nothing extra has to be downloaded */
 body::before {
   content: "";
   position: fixed;

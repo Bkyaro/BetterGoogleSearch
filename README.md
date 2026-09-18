@@ -1,4 +1,10 @@
-# Better Google Search
+<h1 align="center">BetterGoogleSearch</h1>
+
+<p align="center">
+  <a href="https://bkyaro.github.io/BetterGoogleSearch/">
+    <img src="docs/banner.jpg" alt="BetterGoogleSearch - every udm mode Google ships, in one place" width="100%">
+  </a>
+</p>
 
 **Every `udm` mode Google ships, in one place.**
 
